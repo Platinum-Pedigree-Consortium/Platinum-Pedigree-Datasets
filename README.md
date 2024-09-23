@@ -12,3 +12,8 @@ Example of using the awscli
 ```
 aws s3 ls --no-sign-request s3://platinum-pedigree-data/data
 ```
+## Accessing controlled samples
+Not all samples described in Porubsky et al. 2024 are consented for open access. Controlled access samples can be found at dbgap:
+```
+https://www.ncbi.nlm.nih.gov/gap/
+```
