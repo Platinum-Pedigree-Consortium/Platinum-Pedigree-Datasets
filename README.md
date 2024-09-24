@@ -21,7 +21,19 @@ Not all samples described in Porubsky et al. 2024 are consented for open access.
 https://www.ncbi.nlm.nih.gov/gap/
 ```
 
+## datasets
+```
+```
 
+## variants
+```
+Pedigree consistent merged structural variant calls:
+variants/merged_sv_truthset/GRCh38/merged_hg38.svs.sort.oa.vcf.gz
+Pedigree consistent merged structural variant calls removing overlapping TRs:
+variants/merged_sv_truthset/GRCh38/merged_hg38.svs.TRexclusion.sort.oa.vcf.gz
+Pedigree consistent tandem repeats:
+variants/tr_truthset/GRCh38/ceph_1463_tandem_repeats.oa.vcf.gz
+```
 ---
 <p align="center">
   Thanks to Amazon Open Data for sponsorship 
@@ -30,3 +42,5 @@ https://www.ncbi.nlm.nih.gov/gap/
 <p align="center">
 <a href="https://aws.amazon.com/what-is-cloud-computing"><img src="https://d0.awsstatic.com/logos/powered-by-aws.png" alt="Powered by AWS Cloud Computing"></a>
 </p>
+
+
