@@ -16,7 +16,8 @@ To access the S3 bucket use the amazon awscli:
 aws s3 ls --no-sign-request s3://platinum-pedigree-data/data
 ```
 ## Accessing controlled samples
-Not all samples described in Porubsky et al. 2024 are consented for open access. Controlled access samples can be found at dbgap:
+Not all samples described in Porubsky et al. 2024 are consented for open access. In the third generation NA12883 (2298), NA12884 (2215), and NA12887 (2187) are restricted.
+Controlled access samples can be found at dbgap:
 ```
 https://www.ncbi.nlm.nih.gov/gap/
 ```
