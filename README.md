@@ -29,6 +29,6 @@ https://www.ncbi.nlm.nih.gov/gap/
 <p align="center">
   Thanks to Amazon Open Data for sponsorship 
 
-  
+
 <a href="https://aws.amazon.com/what-is-cloud-computing"><img src="https://d0.awsstatic.com/logos/powered-by-aws.png" alt="Powered by AWS Cloud Computing"></a>
-<p align="center">
+</p>
