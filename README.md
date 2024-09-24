@@ -11,10 +11,7 @@ Platinum Pedigree Consortium includes whole genome sequencing using five technol
 
 ## Accessing the Amazon Open Data
 
-You will need the AWS command line interface for large transfers:
-```https://aws.amazon.com/cli/```
-
-Example of using the awscli 
+To access the S3 bucket use the amazon awscli:
 ```
 aws s3 ls --no-sign-request s3://platinum-pedigree-data/data
 ```
