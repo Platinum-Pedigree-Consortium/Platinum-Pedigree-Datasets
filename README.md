@@ -57,8 +57,10 @@ Pedigree consistetn merged small variant calls (truthset):
 
 Pedigree consistent DeepVariant (HiFi) calls:
 variants/small_variants/GRCh38/CEPH1463.GRCh38.deepvariant.glnexus.oa.vcf.gz
+
 Pedigree consistent Dragen (Illumina) calls:
 variants/small_variants/GRCh38/CEPH1463.GRCh38.illumina-dragen.oa.vcf.gz
+
 Pedigree consistent Clair3 (ONT) calls:
 variants/small_variants/GRCh38/CEPH1463.GRCh38.ont-clair3.glnexus.oa.vcf.gz
 
