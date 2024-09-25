@@ -26,12 +26,16 @@ https://www.ncbi.nlm.nih.gov/gap/
 ```
 Mapped Element data:
 data/element/
+
 Mapped HiFi data:
 data/hifi/
+
 Mapped Illumina data:
 data/illumina
+
 Mapped ONT data:
 data/ont
+
 Mapped and raw stranseq data:
 data/strandseq
 ```
