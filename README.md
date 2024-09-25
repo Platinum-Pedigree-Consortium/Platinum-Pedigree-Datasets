@@ -40,10 +40,25 @@ data/strandseq
 ```
 Pedigree consistent merged structural variant calls:
 variants/merged_sv_truthset/GRCh38/merged_hg38.svs.sort.oa.vcf.gz
+
 Pedigree consistent merged structural variant calls removing overlapping TRs:
 variants/merged_sv_truthset/GRCh38/merged_hg38.svs.TRexclusion.sort.oa.vcf.gz
+
 Pedigree consistent tandem repeats:
 variants/tr_truthset/GRCh38/ceph_1463_tandem_repeats.oa.vcf.gz
+
+Pedigree consistetn merged small variant calls (truthset):
+  variants/small_variant_truthset/GRCh38/CEPH1463.GRCh38.family-truthset.ov.vcf.gz
+  variants/small_variant_truthset/GRCh38/hq_regions_final.bed.gz
+
+Pedigree consistent DeepVariant (HiFi) calls:
+variants/small_variants/GRCh38/CEPH1463.GRCh38.deepvariant.glnexus.oa.vcf.gz
+Pedigree consistent Dragen (Illumina) calls:
+variants/small_variants/GRCh38/CEPH1463.GRCh38.illumina-dragen.oa.vcf.gz
+Pedigree consistent Clair3 (ONT) calls:
+variants/small_variants/GRCh38/CEPH1463.GRCh38.ont-clair3.glnexus.oa.vcf.gz
+
+
 ```
 ---
 <p align="center">
