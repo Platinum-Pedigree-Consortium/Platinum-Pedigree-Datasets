@@ -36,7 +36,7 @@ data/illumina
 Mapped ONT data:
 data/ont
 
-Mapped and raw stranseq data:
+Mapped and raw Strand-seq data:
 data/strandseq
 ```
 
@@ -51,7 +51,7 @@ variants/merged_sv_truthset/GRCh38/merged_hg38.svs.TRexclusion.sort.oa.vcf.gz
 Pedigree consistent tandem repeats:
 variants/tr_truthset/GRCh38/ceph_1463_tandem_repeats.oa.vcf.gz
 
-Pedigree consistetn merged small variant calls (truthset):
+Pedigree consistent merged small variant calls (truthset):
   variants/small_variant_truthset/GRCh38/CEPH1463.GRCh38.family-truthset.ov.vcf.gz
   variants/small_variant_truthset/GRCh38/hq_regions_final.bed.gz
 
@@ -64,7 +64,12 @@ variants/small_variants/GRCh38/CEPH1463.GRCh38.illumina-dragen.oa.vcf.gz
 Pedigree consistent Clair3 (ONT) calls:
 variants/small_variants/GRCh38/CEPH1463.GRCh38.ont-clair3.glnexus.oa.vcf.gz
 
+Assembly-based variant calls with respect to both GRCh38 and T2T-CHM13 (CHM13) human references reported by dipcall variant caller:
+variants/assembly-based/dipcall
 
+Reported by PAV variant caller:
+variants/assembly-based/pav
+ 
 ```
 ---
 <p align="center">
