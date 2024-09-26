@@ -55,14 +55,14 @@ Pedigree consistent merged small variant calls (truthset):
   variants/small_variant_truthset/GRCh38/CEPH1463.GRCh38.family-truthset.ov.vcf.gz
   variants/small_variant_truthset/GRCh38/hq_regions_final.bed.gz
 
-Pedigree consistent DeepVariant (HiFi) calls:
-variants/small_variants/GRCh38/CEPH1463.GRCh38.deepvariant.glnexus.oa.vcf.gz
+DeepVariant (HiFi) calls:
+variants/small_variants/(GRCh38|CHM13)/CEPH1463.GRCh38.deepvariant.glnexus.oa.vcf.gz
 
-Pedigree consistent Dragen (Illumina) calls:
-variants/small_variants/GRCh38/CEPH1463.GRCh38.illumina-dragen.oa.vcf.gz
+Dragen (Illumina) calls:
+variants/small_variants/(GRCh38|CHM13)/CEPH1463.GRCh38.illumina-dragen.oa.vcf.gz
 
-Pedigree consistent Clair3 (ONT) calls:
-variants/small_variants/GRCh38/CEPH1463.GRCh38.ont-clair3.glnexus.oa.vcf.gz
+Clair3 (ONT) calls:
+variants/small_variants/(GRCh38|CHM13)/CEPH1463.GRCh38.ont-clair3.glnexus.oa.vcf.gz
 
 Assembly-based variant calls with respect to both GRCh38 and T2T-CHM13 (CHM13) human references reported by dipcall variant caller:
 variants/assembly-based/dipcall
