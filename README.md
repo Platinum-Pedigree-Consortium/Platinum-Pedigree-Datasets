@@ -71,6 +71,12 @@ Reported by PAV variant caller:
 variants/assembly-based/pav
  
 ```
+
+## Ethics declarations
+Human subjects: Informed consent was obtained from the CEPH/Utah individuals, and the University of Utah Institutional Review Board approved the study (University of Utah IRB reference IRB_00065564).
+
+
+
 ---
 <p align="center">
   Thanks to Amazon Open Data for sponsorship 
