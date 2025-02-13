@@ -12,12 +12,26 @@ Platinum Pedigree Consortium includes whole genome sequencing using five technol
 ## Accessing the Amazon Open Data
 
 To access the S3 bucket use the amazon awscli:
+
+List all datasets:
 ```
-aws s3 ls --no-sign-request s3://platinum-pedigree-data/data
+aws s3 ls --no-sign-request s3://platinum-pedigree-data/
 ```
+List all mapped sequencing data:
+```
+aws s3 ls --no-sign-request s3://platinum-pedigree-data/data/
+```
+List all assemblies:
+```
+aws s3 ls --no-sign-request s3://platinum-pedigree-data/assemblies/
+```
+List all variant calls:
+```
+aws s3 ls --no-sign-request s3://platinum-pedigree-data/variants/
+```
+
 ## Accessing controlled samples
-Not all samples described in Porubsky et al. 2024 are consented for open access. In the third generation NA12883 (2298), NA12884 (2215), and NA12887 (2187) are restricted.
-Controlled access samples can be found at dbgap:
+Not all samples described in Porubsky et al. 2024 are consented for an open access. Five samples in the third generation (NA12883 (2298), NA12884 (2215), and NA12887 (2187)) as well as two samples from the fourth generation (200103 and 200105) are available via controlled access at dbGaP (accession id: phs003793.v1.p1):
 ```
 https://www.ncbi.nlm.nih.gov/gap/
 ```
