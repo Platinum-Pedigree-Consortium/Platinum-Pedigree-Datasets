@@ -41,6 +41,10 @@ The variant truthsets from [Kronenberg et. al. 2025](https://www.nature.com/arti
 truthset_v1.2/
 truthset_v1.1/
 ```
+There is a technical NA12878 cell line that can be used for benchmarking, as it was not used in the generation of the truthset.
+```
+s3://platinum-pedigree-data/data/hifi/mapped/GRCh38/NA12878-cell-line-revio.GRCh38.haplotagged.bam
+```
 
 ## datasets
 ```
