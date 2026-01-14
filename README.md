@@ -35,6 +35,12 @@ Not all samples described in Porubsky et al. 2024 are consented for an open acce
 ```
 https://www.ncbi.nlm.nih.gov/gap/
 ```
+## truthset (NA12878)
+The variant truthsets from [Kronenberg et. al. 2025](https://www.nature.com/articles/s41592-025-02750-y) are in the top directory, including a SNV, INDEL, TR, and SV truthset.
+```
+truthset_v1.2/
+truthset_v1.1/
+```
 
 ## datasets
 ```
